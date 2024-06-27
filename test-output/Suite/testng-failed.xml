@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.demoqa.qa.test.FullFlowTest">
+        <methods>
+          <include name="verifyTheMobileNumber"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="suitSetup"/>
+          <include name="verifyTheBirthDate"/>
+          <include name="verifyTheSubjects"/>
+          <include name="verifyTheLocation"/>
+          <include name="verifyTheHobbies"/>
+          <include name="verifyTheName"/>
+          <include name="verifyTheEmail"/>
+          <include name="enterFormDetails"/>
+          <include name="reportGeneration"/>
+          <include name="verifyTheGender"/>
+          <include name="testLog"/>
+          <include name="verifyTheAddress"/>
+        </methods>
+      </class> <!-- com.demoqa.qa.test.FullFlowTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

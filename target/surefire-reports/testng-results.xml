@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-27T12:28:03 IST" name="Suite" finished-at="2024-06-27T12:28:09 IST" duration-ms="6251">
+    <groups>
+    </groups>
+    <test started-at="2024-06-27T12:28:03 IST" name="Test" finished-at="2024-06-27T12:28:09 IST" duration-ms="6251">
+      <class name="com.demoqa.qa.test.FullFlowTest">
+        <test-method is-config="true" signature="suitSetup()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:27:48 IST" name="suitSetup" finished-at="2024-06-27T12:28:03 IST" duration-ms="14553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:03 IST" name="setUp" finished-at="2024-06-27T12:28:04 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterFormDetails()[pri:1, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:04 IST" name="enterFormDetails" finished-at="2024-06-27T12:28:08 IST" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFormDetails -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterFormDetails status=SUCCESS method=FullFlowTest.enterFormDetails()[pri:1, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheName()[pri:2, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheName" finished-at="2024-06-27T12:28:08 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheName status=SUCCESS method=FullFlowTest.verifyTheName()[pri:2, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheEmail()[pri:3, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheEmail" finished-at="2024-06-27T12:28:08 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheEmail -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheEmail status=SUCCESS method=FullFlowTest.verifyTheEmail()[pri:3, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheGender()[pri:4, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheGender" finished-at="2024-06-27T12:28:08 IST" duration-ms="40" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [vvv] but found [Male]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [vvv] but found [Male]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.demoqa.qa.test.FullFlowTest.verifyTheGender(FullFlowTest.java:139)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheGender -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheGender status=FAILURE method=FullFlowTest.verifyTheGender()[pri:4, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheMobileNumber()[pri:5, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheMobileNumber" finished-at="2024-06-27T12:28:08 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheMobileNumber -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheMobileNumber status=SUCCESS method=FullFlowTest.verifyTheMobileNumber()[pri:5, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheBirthDate()[pri:6, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheBirthDate" finished-at="2024-06-27T12:28:08 IST" duration-ms="33" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [25 Jan 1968] but found [25 January,1968]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [25 Jan 1968] but found [25 January,1968]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.demoqa.qa.test.FullFlowTest.verifyTheBirthDate(FullFlowTest.java:159)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheBirthDate -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheBirthDate status=FAILURE method=FullFlowTest.verifyTheBirthDate()[pri:6, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheSubjects()[pri:7, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheSubjects" finished-at="2024-06-27T12:28:08 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSubjects -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheSubjects status=SUCCESS method=FullFlowTest.verifyTheSubjects()[pri:7, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheHobbies()[pri:8, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheHobbies" finished-at="2024-06-27T12:28:08 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheHobbies -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheHobbies status=SUCCESS method=FullFlowTest.verifyTheHobbies()[pri:8, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheAddress()[pri:9, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheAddress" finished-at="2024-06-27T12:28:09 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheAddress -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="testLog" finished-at="2024-06-27T12:28:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheAddress status=SUCCESS method=FullFlowTest.verifyTheAddress()[pri:9, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method signature="verifyTheLocation()[pri:10, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="verifyTheLocation" finished-at="2024-06-27T12:28:09 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheLocation -->
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="testLog" finished-at="2024-06-27T12:28:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheLocation status=SUCCESS method=FullFlowTest.verifyTheLocation()[pri:10, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="teardown" finished-at="2024-06-27T12:28:09 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportGeneration()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="reportGeneration" finished-at="2024-06-27T12:28:10 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+      </class> <!-- com.demoqa.qa.test.FullFlowTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

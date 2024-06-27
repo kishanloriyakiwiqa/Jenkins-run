@@ -1,0 +1,4 @@
+com\demoqa\qa\testReports\ExtentSpark.class
+com\demoqa\qa\test\FullFlowTest.class
+com\demoqa\qa\test\FormsPageTest.class
+com\demoqa\qa\test\VerificationPageTest.class

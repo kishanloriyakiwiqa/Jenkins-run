@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Enter details in forms(failed)">
+    <classes>
+      <class name="com.demoqa.qa.test.FormsScreenTest">
+        <methods>
+          <include name="enterSubjects"/>
+          <include name="enterBirthDate"/>
+          <include name="setUp"/>
+          <include name="enterCurrentStateDetails"/>
+          <include name="enterHobbiesDetails"/>
+          <include name="clickOnSubmitButton"/>
+          <include name="enterCurrentCityDetails"/>
+        </methods>
+      </class> <!-- com.demoqa.qa.test.FormsScreenTest -->
+    </classes>
+  </test> <!-- Enter details in forms(failed) -->
+</suite> <!-- Failed suite [Suite-1] -->

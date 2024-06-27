@@ -1,0 +1,5 @@
+com\demoqa\qa\base\BaseClass.class
+com\demoqa\qa\base\DataClass.class
+com\demoqa\qa\pages\FormPage.class
+com\demoqa\qa\utils\Utilities.class
+com\demoqa\qa\pages\VerificationPage.class
