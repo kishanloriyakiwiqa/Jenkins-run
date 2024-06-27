@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T12:28:03 IST" name="Suite" finished-at="2024-06-27T12:28:09 IST" duration-ms="6251">
+  <suite started-at="2024-06-27T12:55:01 IST" name="Suite" finished-at="2024-06-27T12:55:08 IST" duration-ms="6727">
     <groups>
     </groups>
-    <test started-at="2024-06-27T12:28:03 IST" name="Test" finished-at="2024-06-27T12:28:09 IST" duration-ms="6251">
+    <test started-at="2024-06-27T12:55:01 IST" name="Test" finished-at="2024-06-27T12:55:08 IST" duration-ms="6727">
       <class name="com.demoqa.qa.test.FullFlowTest">
-        <test-method is-config="true" signature="suitSetup()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:27:48 IST" name="suitSetup" finished-at="2024-06-27T12:28:03 IST" duration-ms="14553" status="PASS">
+        <test-method is-config="true" signature="suitSetup()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:54:46 IST" name="suitSetup" finished-at="2024-06-27T12:55:01 IST" duration-ms="14667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suitSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:03 IST" name="setUp" finished-at="2024-06-27T12:28:04 IST" duration-ms="941" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:01 IST" name="setUp" finished-at="2024-06-27T12:55:02 IST" duration-ms="1116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="enterFormDetails()[pri:1, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:04 IST" name="enterFormDetails" finished-at="2024-06-27T12:28:08 IST" duration-ms="3820" status="PASS">
+        <test-method signature="enterFormDetails()[pri:1, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:02 IST" name="enterFormDetails" finished-at="2024-06-27T12:55:06 IST" duration-ms="4092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFormDetails -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:06 IST" name="testLog" finished-at="2024-06-27T12:55:06 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheName()[pri:2, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheName" finished-at="2024-06-27T12:28:08 IST" duration-ms="270" status="PASS">
+        <test-method signature="verifyTheName()[pri:2, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:06 IST" name="verifyTheName" finished-at="2024-06-27T12:55:06 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheName -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:06 IST" name="testLog" finished-at="2024-06-27T12:55:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheEmail()[pri:3, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheEmail" finished-at="2024-06-27T12:28:08 IST" duration-ms="35" status="PASS">
+        <test-method signature="verifyTheEmail()[pri:3, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:06 IST" name="verifyTheEmail" finished-at="2024-06-27T12:55:06 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheEmail -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:06 IST" name="testLog" finished-at="2024-06-27T12:55:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheGender()[pri:4, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheGender" finished-at="2024-06-27T12:28:08 IST" duration-ms="40" status="FAIL">
+        <test-method signature="verifyTheGender()[pri:4, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:06 IST" name="verifyTheGender" finished-at="2024-06-27T12:55:07 IST" duration-ms="87" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [vvv] but found [Male]]]>
@@ -112,7 +112,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheGender -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheMobileNumber()[pri:5, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheMobileNumber" finished-at="2024-06-27T12:28:08 IST" duration-ms="37" status="PASS">
+        <test-method signature="verifyTheMobileNumber()[pri:5, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="verifyTheMobileNumber" finished-at="2024-06-27T12:55:07 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheMobileNumber -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheBirthDate()[pri:6, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheBirthDate" finished-at="2024-06-27T12:28:08 IST" duration-ms="33" status="FAIL">
+        <test-method signature="verifyTheBirthDate()[pri:6, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="verifyTheBirthDate" finished-at="2024-06-27T12:55:07 IST" duration-ms="33" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [25 Jan 1968] but found [25 January,1968]]]>
@@ -190,7 +190,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheBirthDate -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,11 +201,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheSubjects()[pri:7, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheSubjects" finished-at="2024-06-27T12:28:08 IST" duration-ms="42" status="PASS">
+        <test-method signature="verifyTheSubjects()[pri:7, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="verifyTheSubjects" finished-at="2024-06-27T12:55:07 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheSubjects -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,11 +216,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheHobbies()[pri:8, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheHobbies" finished-at="2024-06-27T12:28:08 IST" duration-ms="31" status="PASS">
+        <test-method signature="verifyTheHobbies()[pri:8, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="verifyTheHobbies" finished-at="2024-06-27T12:55:07 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheHobbies -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="testLog" finished-at="2024-06-27T12:28:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,11 +231,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheAddress()[pri:9, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:08 IST" name="verifyTheAddress" finished-at="2024-06-27T12:28:09 IST" duration-ms="31" status="PASS">
+        <test-method signature="verifyTheAddress()[pri:9, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="verifyTheAddress" finished-at="2024-06-27T12:55:07 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheAddress -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="testLog" finished-at="2024-06-27T12:28:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,11 +246,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method signature="verifyTheLocation()[pri:10, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="verifyTheLocation" finished-at="2024-06-27T12:28:09 IST" duration-ms="35" status="PASS">
+        <test-method signature="verifyTheLocation()[pri:10, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="verifyTheLocation" finished-at="2024-06-27T12:55:07 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheLocation -->
-        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="testLog" finished-at="2024-06-27T12:28:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testLog(org.testng.ITestResult)[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="testLog" finished-at="2024-06-27T12:55:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,11 +261,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLog -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="teardown" finished-at="2024-06-27T12:28:09 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:07 IST" name="teardown" finished-at="2024-06-27T12:55:08 IST" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="reportGeneration()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:28:09 IST" name="reportGeneration" finished-at="2024-06-27T12:28:10 IST" duration-ms="616" status="PASS">
+        <test-method is-config="true" signature="reportGeneration()[pri:0, instance:com.demoqa.qa.test.FullFlowTest@f5ac9e4]" started-at="2024-06-27T12:55:08 IST" name="reportGeneration" finished-at="2024-06-27T12:55:08 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportGeneration -->
